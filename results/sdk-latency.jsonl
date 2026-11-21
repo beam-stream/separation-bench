@@ -1,0 +1,8 @@
+{"system": "audioshake-compact", "fill": 1.024, "standing": 0.19199999999999928, "gran": 0.8, "p50": 0.05011100000000002, "p99": 0.11439399999999988, "calls": 8880}
+{"system": "audioshake-compact-gpu", "fill": 1.024, "standing": 0.19199999999999928, "gran": 0.8, "p50": 0.005534000000000039, "p99": 0.01330400000000001, "calls": 5920}
+{"system": "audioshake-compact-masked", "fill": 1.024, "standing": 0.19199999999999928, "gran": 0.8, "p50": 0.04360900000000001, "p99": 0.06198499999999996, "calls": 5920}
+{"system": "audioshake-speech-denoise", "fill": 2.5774149659863945, "standing": 0.06965986394557433, "gran": 2.4903401360544217, "p50": 18.591489999999965, "p99": 34.583324000000005, "calls": 1920}
+{"system": "audioshake-speech-denoise-gpu", "fill": 2.5774149659863945, "standing": 0.06965986394557433, "gran": 2.4903401360544217, "p50": 0.16339300000000012, "p99": 0.42989099999999997, "calls": 1920}
+{"system": "audioshake-speech-denoise-gpu-chunk2x", "fill": 2.5774149659863945, "standing": 1.2799999999999976, "gran": 1.28, "p50": 0.2004590000000004, "p99": 0.357599, "calls": 3600}
+{"system": "audioshake-speech-denoise-gpu-chunk4x", "fill": 2.5774149659863945, "standing": 1.9199999999999982, "gran": 0.64, "p50": 0.18075200000000002, "p99": 0.305095, "calls": 7200}
+{"system": "audioshake-speech-denoise-gpu-chunk8x", "fill": 2.5774149659863945, "standing": 2.2399999999999984, "gran": 0.32, "p50": 0.18282500000000113, "p99": 0.2837050000000012, "calls": 14400}

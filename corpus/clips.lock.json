@@ -1,0 +1,45 @@
+{
+  "clips": {
+    "cs2-0300": {
+      "background": "f1def85733379c0788ce4db54103177a1ed06ed0e32ad7e71df6a2bed20476f3",
+      "phase_lock": 0.0009,
+      "voice": "7411aaa2ab6ee067018b42ba08a372f560e0e83f62058c101867f52e345bda44"
+    },
+    "cs2-0600": {
+      "background": "4069215b46ee931ec4464c35ca5ba6cb40e5d0ea5a06caec29929059d481b70c",
+      "phase_lock": 0.0025,
+      "voice": "94a7b698a928998f540d7df89bbc5f22286b22917d8e1aa220adf821af85f273"
+    },
+    "cs2-0900": {
+      "background": "bec16366ed6a1e7f8b57ac73af5001f455d72c680b7d70496ab4fa5913cfef83",
+      "phase_lock": 0.0024,
+      "voice": "1deed5030a940b4de5ee9821d985c7b87bd76bfc92528811bd9dcdc1f31690fe"
+    },
+    "cs2-1500": {
+      "background": "36e6764183dd3f7b6acba45aecc12e8c5a68761dadb0e0967ef98c9a8057619d",
+      "phase_lock": 0.0045,
+      "voice": "587e96b7bf8ca6a7cdc6ae04992428d481ba339d6bbc7575a18fb7b765d753c8"
+    },
+    "edm-talk-a": {
+      "background": "79fc19e66ca8626ddb0bb81900c88d5eae7be1f0777034190cbe32cdcf56d354",
+      "phase_lock": 0.0022,
+      "voice": "659d7ae4e0801e4ba52a12231bd98cc85304326b6a7a63ba3b8b867a59edf9b1"
+    },
+    "edm-talk-b": {
+      "background": "1e3d293495d332ca5c5ce3a851e34059041d877bd1ecbe18eee3861a875a7f88",
+      "phase_lock": 0.0028,
+      "voice": "47f43bb65faf8c0b5b98550e9b73871e134a480db2eb066386952626d6710dc4"
+    },
+    "sung-talk-a": {
+      "background": "1c794e22bc5a902f6cd3c50bb9f5bb8a20b68508491fd0132cbd1dde81c1d35c",
+      "phase_lock": 0.0029,
+      "voice": "db4a870318a9144ee57f4ac8163538989b166a8b780ed3b93eef2544cd78de30"
+    },
+    "sung-talk-b": {
+      "background": "c2fcc995a15d6fc0f7cdc9fe8d0cbe1a9d6c78e07b5a20a5020e4db2a9218489",
+      "phase_lock": 0.0011,
+      "voice": "098186f4b839464b5fd08e33744359b5535f741e048e88a596fd94c4c801b1be"
+    }
+  },
+  "ffmpeg": "ffmpeg version 8.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+}

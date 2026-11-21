@@ -1,0 +1,10 @@
+separation-bench
+Copyright 2026 BEAM Media Corp.
+
+This product includes software developed at BEAM (https://beamstream.gg/).
+
+The Apache License in LICENSE covers this harness and nothing it fetches or
+drives. Model weights, the proprietary SDK one set of arms calls, and the source
+audio each carry their own terms; THIRD-PARTY.md names all three. Vendor and
+product names in the measurements and reports identify what was measured and are
+the trademarks of their owners.

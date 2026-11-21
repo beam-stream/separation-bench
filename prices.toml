@@ -1,0 +1,85 @@
+# Prices the report converts measured compute and billed minutes with. Every entry carries the date it
+# was read and where from. A price without a source does not go in.
+
+# No CPU rate card. The CPU arms ran on one desktop CPU, and the same work differs by more than
+# 1.6x across CPU generations within a single provider's own fleet, so whichever card were chosen
+# here would move the figure more than the model does. The report prints measured CPU-seconds per
+# audio-second instead and leaves the arithmetic to a reader who knows their own rate.
+
+[gpu.rtx3090]
+# Single on-demand 3090. RunPod Community Cloud; TensorDock is $0.20, RunPod Secure $0.50.
+usd_per_hour = 0.22
+# How many streams a card holds is min(throughput, memory), and for half the models here it is
+# memory. Board total; a real deployment loses a few hundred MB to context and fragmentation.
+vram_mb = 24576
+source = "https://www.runpod.io/pricing"
+read = "2026-09-22"
+
+# Per minute of INPUT audio unless the note says otherwise. Billing rules that change the arithmetic
+# (per-target credits, rounding up, minimums) are what `note` is for.
+[api.audioshake]
+usd_per_minute = nan
+note = "1.5 credits per minute per target (dialogue + residual = one target), rounded up to the minute; USD per credit not public"
+source = "https://developer.audioshake.ai/billing"
+read = "2026-09-22"
+
+[api.gaudio-speech-hq]
+usd_per_minute = 0.065
+note = "gsep_speech_hq_v1, speech + others"
+source = "https://www.gaudiolab.com/developers/resources/pricing"
+read = "2026-09-22"
+
+[api.gaudio-dme-v2]
+usd_per_minute = 0.60
+note = "two jobs per item: gsep_dme_dtrack_v1 at $0.24 and gsep_dme_me2track_v2 at $0.36 per audio-minute"
+source = "https://www.gaudiolab.com/developers/resources/pricing"
+read = "2026-09-22"
+
+[api.music-ai-cinematic]
+usd_per_minute = 0.05
+note = "dialogue / music / effects, pay-as-you-go"
+source = "https://music.ai/pricing/"
+read = "2026-09-22"
+
+[api.lalal]
+usd_per_minute = 0.067
+usd_per_minute_low = 0.060
+note = "top-up packs 750 min / $50 down to 5000 min / $300; minutes charged = length x stem types; API needs the Pro plan. Which separation model is selected does not change the rate."
+source = "https://www.lalal.ai/pricing/"
+read = "2026-11-19"
+
+[api.mvsep]
+usd_per_minute = 0.050
+usd_per_minute_low = 0.0091
+note = "1 credit per full minute, minimum 1 per job; packs run 60 credits / $3 down to 110000 / $1000. The page says ensemble models can cost more and does not price them."
+source = "https://mvsep.com/en/plans and https://mvsep.com/en/credits"
+read = "2026-11-19"
+
+[api.camb]
+usd_per_minute = nan
+note = "no public per-unit rate: credits against monthly plans, with separation minutes allocated per tier. A rate can only be derived by assuming a whole plan is spent on separation, which is an assumption and not a price."
+source = "https://www.camb.ai/pricing"
+read = "2026-11-19"
+
+[api.elevenlabs-isolator]
+usd_per_minute = 0.12
+note = "voice only; background is mix - voice"
+source = "https://elevenlabs.io/pricing/api"
+read = "2026-09-22"
+
+[api.byteplus-vod]
+usd_per_minute = 0.01
+note = "plus VOD storage and CDN; output AAC only"
+source = "https://docs.byteplus.com/en/docs/byteplus-vod/docs-pay-as-you-go-pricing"
+read = "2026-09-22"
+
+[api.fal-sam-audio]
+usd_per_minute = 0.10
+usd_per_minute_extra_candidate = 0.05
+note = "$0.05 per 30 s of output, plus $0.025 per 30 s for each reranking candidate past the first; generative"
+source = "https://fal.ai/models/fal-ai/sam-audio/separate"
+read = "2026-09-22"
+
+[sdk.audioshake]
+usd_per_stream_hour = nan
+note = "no published rate, so no figure is derived"

@@ -1,0 +1,10 @@
+# Audio, recorded system outputs and listening folders live under $SEPBENCH_DATA,
+# outside the repo. These entries catch a default or mistaken in-tree location.
+data/
+recordings/
+listen/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+runners/audioshake/vendor/

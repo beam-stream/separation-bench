@@ -1,0 +1,134 @@
+{
+  "master_rate": 44100,
+  "duration": 60,
+  "clips": [
+    {
+      "id": "cs2-0300",
+      "category": "game",
+      "language": "en",
+      "truth": "separate-tracks",
+      "voice": {
+        "source": "cs2.mp4",
+        "stream": 3,
+        "start": 300
+      },
+      "background": {
+        "source": "cs2.mp4",
+        "stream": 2,
+        "start": 300
+      }
+    },
+    {
+      "id": "cs2-0600",
+      "category": "game",
+      "language": "en",
+      "truth": "separate-tracks",
+      "voice": {
+        "source": "cs2.mp4",
+        "stream": 3,
+        "start": 600
+      },
+      "background": {
+        "source": "cs2.mp4",
+        "stream": 2,
+        "start": 600
+      }
+    },
+    {
+      "id": "cs2-0900",
+      "category": "game",
+      "language": "en",
+      "truth": "separate-tracks",
+      "voice": {
+        "source": "cs2.mp4",
+        "stream": 3,
+        "start": 900
+      },
+      "background": {
+        "source": "cs2.mp4",
+        "stream": 2,
+        "start": 900
+      }
+    },
+    {
+      "id": "cs2-1500",
+      "category": "game",
+      "language": "en",
+      "truth": "separate-tracks",
+      "voice": {
+        "source": "cs2.mp4",
+        "stream": 3,
+        "start": 1500
+      },
+      "background": {
+        "source": "cs2.mp4",
+        "stream": 2,
+        "start": 1500
+      }
+    },
+    {
+      "id": "edm-talk-a",
+      "category": "talk-over-music",
+      "language": "en",
+      "truth": "synthetic",
+      "voice": {
+        "source": "cs2.mp4",
+        "stream": 3,
+        "start": 120
+      },
+      "background": {
+        "source": "music-only.mp4",
+        "stream": 2,
+        "start": 120
+      }
+    },
+    {
+      "id": "edm-talk-b",
+      "category": "talk-over-music",
+      "language": "en",
+      "truth": "synthetic",
+      "voice": {
+        "source": "cs2.mp4",
+        "stream": 3,
+        "start": 1050
+      },
+      "background": {
+        "source": "music-only.mp4",
+        "stream": 2,
+        "start": 400
+      }
+    },
+    {
+      "id": "sung-talk-a",
+      "category": "talk-over-music",
+      "language": "en",
+      "truth": "synthetic",
+      "voice": {
+        "source": "cs2.mp4",
+        "stream": 3,
+        "start": 210
+      },
+      "background": {
+        "source": "concert.mp4",
+        "stream": 8,
+        "start": 240
+      }
+    },
+    {
+      "id": "sung-talk-b",
+      "category": "talk-over-music",
+      "language": "en",
+      "truth": "synthetic",
+      "voice": {
+        "source": "cs2.mp4",
+        "stream": 3,
+        "start": 1620
+      },
+      "background": {
+        "source": "concert.mp4",
+        "stream": 8,
+        "start": 420
+      }
+    }
+  ]
+}
